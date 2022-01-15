@@ -19,6 +19,11 @@
         padding: 0px 40px;
         grid-template-columns: repeat(2, 1fr);
     }
+    .product_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
 }
 @media(min-width: 990px){
     .mobile_nav{
@@ -77,5 +82,10 @@
     }
 }
 @media(min-width: 1140px){
-    
+    .product_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        padding: 0 100px;
+    }
 }
